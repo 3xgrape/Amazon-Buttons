@@ -1,0 +1,41 @@
+* {
+    width: 50%;
+    margin: auto;
+}
+
+.yellow-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border: 1.75px solid rgb(145, 128, 96);
+    border-radius: 2.5px;
+    font-weight: bold;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f1e867+0,feb746+100 */
+background: #f1e867; /* Old browsers */
+background: -moz-linear-gradient(top,  #f1e867 0%, #feb746 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f1e867 0%,#feb746 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f1e867 0%,#feb746 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e867', endColorstr='#feb746',GradientType=0 ); /* IE6-9 */
+}
+
+.white-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 1.75px solid gray;
+    border-radius: 2.5px;
+    padding: .30rem;
+    font-weight: bold;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 0%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+
+}
